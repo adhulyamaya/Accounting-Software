@@ -8,9 +8,9 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = 'django-insecure-8yk62c53vm-h(&f(v^2l993kos#aco*l61toyl0z%srho3%40('
 
-DEBUG = True
+DEBUG=True
 
 ALLOWED_HOSTS = ['13.126.77.40','api.neo.tecnavis.com','localhost','127.0.0.1','neo.tecnavis.com',]
 
