@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django migrations
+*/migrations/*
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# GitHub settings
+.github/
